@@ -1,3 +1,5 @@
+ second way to solve by memoization
+
 class Solution {
 public:
     int solve(vector<int>&rods,int idx,int diff,vector<vector<int>>&dp){
