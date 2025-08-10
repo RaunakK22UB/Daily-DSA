@@ -1,3 +1,4 @@
+
 class Solution {
 public:
     int maxIceCream(vector<int>& costs, int coins) {
@@ -13,3 +14,5 @@ public:
           return iceCream;
     } 
 };
+
+greedy way to solve
