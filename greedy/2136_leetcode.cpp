@@ -20,4 +20,17 @@ public:
 
               int prevPlantTime =0;
              int maxBloomTime = 0;
-      
+             for(int i =0;i<n;i++){
+                  int currentPlantTime = vec[i].first;
+                  int currentGrownTime = vec[i].second;
+
+                  prevPlantTime += currentPlantTime;
+
+                  int currentBloomTime =  prevPlantTime + currentGrownTime;
+
+                  maxBloomTime = max(maxBloomTime , currentBloomTime);  // minimum days itna to chahiye taki sab flowers bloom hojaye
+             }
+
+             return maxBloomTime;
+    }
+};
