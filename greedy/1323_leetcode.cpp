@@ -9,3 +9,11 @@ public:
                     break;
                }
           }
+
+          int ans = stoi(s);
+
+          return ans;
+
+
+    }
+};
