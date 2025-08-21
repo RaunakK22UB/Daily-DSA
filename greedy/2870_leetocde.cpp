@@ -15,15 +15,7 @@ public:
              if(it.second == 1){
                 return -1;
              }
-             ans+= ceil((double)it.second/3);
-         }
-
-         return ans;
-         
-
-    }
-};
-
+          
 
 // =------------------------wrong approch
 // class Solution {
