@@ -15,4 +15,10 @@ public:
                      start = guess_number + 1; // mid + 1
                 }else{
                       return guess_number;
-     
+                }
+           }
+
+           return -1;
+
+    }
+};
