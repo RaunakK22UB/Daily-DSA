@@ -10,3 +10,11 @@ public:
               }
              int num = d[0] * 10 + d[1];
              result+=vec[num];  // add the frequency of that number , 1st 0 hi add hoga kyu ki uss num ke sath pair banane ke liye 2 chahiye iss liye
+
+             vec[num]++;
+
+           }
+
+           return result ;
+    }
+};
