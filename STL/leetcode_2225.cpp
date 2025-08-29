@@ -24,3 +24,9 @@ public:
                 }
              }
 
+             sort(begin(neverLost),end(neverLost));
+             sort(begin(lostOnce),end(lostOnce));
+
+             return {neverLost , lostOnce};
+    }
+};
