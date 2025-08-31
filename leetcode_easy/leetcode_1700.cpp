@@ -14,4 +14,11 @@ public:
 
                      return sandwiches.size() -i ; // students left in queue
                         
-    
+                   }
+
+                   arr[sand]--;// this student had sandwiche 
+        }
+
+        return 0 ; // all have sandwiches
+    }
+};
