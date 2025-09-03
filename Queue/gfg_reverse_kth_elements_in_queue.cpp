@@ -18,4 +18,10 @@ class Solution {
         int n = q.size() - k;
         while(n--){
              int element = q.front();
-    
+             q.pop();
+             q.push(element);
+        }
+        
+        return q;
+    }
+};
