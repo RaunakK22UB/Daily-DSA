@@ -15,4 +15,7 @@ class Solution {
             q.push(element);
         }
         
-     
+        int n = q.size() - k;
+        while(n--){
+             int element = q.front();
+    
