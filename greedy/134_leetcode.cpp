@@ -22,4 +22,10 @@ public:
               if(total < 0){
                   total =0;
                   result_ka_index=i+1; //current idx i to nahi hai sayad aage wala ho answer isliye i+1
-      
+              }
+
+        }
+
+        return result_ka_index;
+    }
+};
