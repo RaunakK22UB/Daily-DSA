@@ -31,3 +31,12 @@ public:
            return dp[idx][remainingWedith] = min(keep,skip);
 
 
+
+   }
+    int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
+        OriginalShelfWidth = shelfWidth;
+        int n =books.size();
+        vector<vector<int>>dp(1001,vector<int>(1001,-1));
+        return solve(books,0,shelfWidth,0,dp);
+    }
+};
