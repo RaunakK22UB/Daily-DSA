@@ -21,3 +21,10 @@ public:
           }
     }
     
+    int distributeCookies(vector<int>& cookies, int k) {
+           n =cookies.size();
+           vector<int>children(k,0);
+           solve(cookies,children,k,0);
+        return result;
+    }
+};
