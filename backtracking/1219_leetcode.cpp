@@ -36,13 +36,4 @@ public:
            m = grid[0].size(); // columns
         int maxResult =0;
         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                   if(grid[i][j]!=0){
-                      maxResult = max(maxResult , solve(grid, i , j));
-                   }
-            }
-        }
-
-        return maxResult;
-    }
-};
+          
