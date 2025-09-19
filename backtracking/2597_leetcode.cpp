@@ -28,4 +28,13 @@ public:
     }
     int beautifulSubsets(vector<int>& nums, int k) {
 
-   
+       
+
+        unordered_map<int,int>mp;
+
+        solve(nums,0,k,mp);
+
+        return result - 1;  // why -1 because we dont need empty subset
+        
+    }
+};
