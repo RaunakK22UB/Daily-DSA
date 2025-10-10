@@ -22,7 +22,7 @@ public:
                idealslots -= min(mp[i], gadhas);
            }
            if(idealslots > 0){
-                 return tasks.size()+idealslot;
+                 return tasks.size()+idealslots;
            }
                return tasks.size();   // agar zero hogaya idealslot to matalb sare jagah bhar gai aur sab char aagaye jagah pe 
            
