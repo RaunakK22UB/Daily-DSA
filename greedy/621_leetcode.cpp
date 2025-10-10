@@ -16,12 +16,12 @@ public:
            sort(begin(mp),end(mp)); // sort acending according to there frequency then only we will take the highest from the back .
            int maxFreq = mp[25];
            int gadha = maxFreq - 1;
-           int idealslot = gadha * n;
+           int idealslots = gadha * n;
 
            for(int i =24;i>=0;i--){
-               idealslot -= min(mp[i], gadha);
+               idealslots -= min(mp[i], gadha);
            }
-           if(idealslot > 0){
+           if(idealslots > 0){
                  return tasks.size()+idealslot;
            }
                return tasks.size();   // agar zero hogaya idealslot to matalb sare jagah bhar gai aur sab char aagaye jagah pe 
