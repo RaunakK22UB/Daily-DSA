@@ -15,11 +15,11 @@ public:
            }
            sort(begin(mp),end(mp)); // sort acending according to there frequency then only we will take the highest from the back .
            int maxFreq = mp[25];
-           int gadha = maxFreq - 1;
-           int idealslots = gadha * n;
+           int gadhas = maxFreq - 1;
+           int idealslots = gadhas * n;
 
            for(int i =24;i>=0;i--){
-               idealslots -= min(mp[i], gadha);
+               idealslots -= min(mp[i], gadhas);
            }
            if(idealslots > 0){
                  return tasks.size()+idealslot;
