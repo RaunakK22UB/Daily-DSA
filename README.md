@@ -15,4 +15,12 @@ Repo for my "DSA" practice.
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/RaunakK22UB/Daily-DSA/tree/master/0002-add-two-numbers) |
+## Array
+|  |
+| ------- |
+| [2215-find-the-difference-of-two-arrays](https://github.com/RaunakK22UB/Daily-DSA/tree/master/2215-find-the-difference-of-two-arrays) |
+## Hash Table
+|  |
+| ------- |
+| [2215-find-the-difference-of-two-arrays](https://github.com/RaunakK22UB/Daily-DSA/tree/master/2215-find-the-difference-of-two-arrays) |
 <!---LeetCode Topics End-->
