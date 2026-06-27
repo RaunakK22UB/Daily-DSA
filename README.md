@@ -18,9 +18,14 @@ Repo for my "DSA" practice.
 ## Array
 |  |
 | ------- |
+| [1572-matrix-diagonal-sum](https://github.com/RaunakK22UB/Daily-DSA/tree/master/1572-matrix-diagonal-sum) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/RaunakK22UB/Daily-DSA/tree/master/2215-find-the-difference-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
 | [2215-find-the-difference-of-two-arrays](https://github.com/RaunakK22UB/Daily-DSA/tree/master/2215-find-the-difference-of-two-arrays) |
+## Matrix
+|  |
+| ------- |
+| [1572-matrix-diagonal-sum](https://github.com/RaunakK22UB/Daily-DSA/tree/master/1572-matrix-diagonal-sum) |
 <!---LeetCode Topics End-->
